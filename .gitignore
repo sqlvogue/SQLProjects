@@ -1,0 +1,33 @@
+# ===============================
+# General
+# ===============================
+*.log
+*.tmp
+~$*
+
+# ===============================
+# Visual Studio / SSDT (SSIS/SSRS)
+# ===============================
+.vs/
+*.user
+*.suo
+*.sdf
+*.cache
+*.dbmdl
+*.pdb
+
+# Build directories
+bin/
+obj/
+
+# SSIS package deployment files
+*.ispac
+
+# SSRS temporary preview files
+*.rdl.data
+
+# ===============================
+# Windows junk files
+# ===============================
+Thumbs.db
+Desktop.ini
